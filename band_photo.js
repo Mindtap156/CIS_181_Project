@@ -25,8 +25,3 @@ function whichBandMember(bandMember) {
 function notBandMember() {
     document.getElementById("band").src = "full_band.jpg";
 }
-
-function clickInfo() {
-    let popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
-}
