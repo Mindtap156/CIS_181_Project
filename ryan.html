@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PASSIONCAT BAND WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="band_photo.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="music.html">MUSIC</a>
+        <a href="tour.html">TOUR</a>
+        <a href="know_the_band.html">GET TO KNOW THE BAND</a>
+        <a href="contact_us.html">CONTACT US</a>
+    </nav>
+    <br>
+    <h1>RYAN</h1>
+    <h2>The ever-anxious leader/guitarist/singer of the band.</h2>
+    <h2>(Click a different member to see more)</h2>
+
+    <img src="ryan.jpg"
+         width="700"
+         height="580"
+         id="band"
+         usemap="#band-map">
+
+    <map name="band-map">
+        <area target="" alt="mira" title="Mira" href="mira.html" coords="70,12,284,574" shape="rect"
+              onmouseover="whichBandMember('mira')" , onmouseleave="notBandMember()">
+        <area target="" alt="ryan" title="Ryan" href="ryan.html" coords="294,578,429,4" shape="rect"
+              onmouseover="whichBandMember('ryan')" onmouseleave="notBandMember()">
+        <area target="" alt="jon" title="Jon" href="jon.html" coords="438,578,675,4" shape="rect"
+              onmouseover="whichBandMember('jon')" onmouseleave="notBandMember()">
+    </map>
+    <p>
+        Ryan, Mira, & Jon make melodic and sarcastic punk rock for your listening "pleasure"!<br>
+        Formed in May of 2023, PASSIONCAT just couldn't be any happier.
+    </p>
+</body>
+</html>
